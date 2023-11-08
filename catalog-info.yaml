@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vm-deploy-rhs
+  description: create-ap-vm
+  annotations:
+    backstage.io/kubernetes-id: vm-deploy-rhs
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/vm-deploy-rhs
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
